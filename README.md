@@ -1,1 +1,5 @@
 # OnlineBookSearch
+
+This program is a way to automate some aspects of my workflow. In this Python application, I use Pandas and Selenium to automate searching of ebook titles and other library materials in our online catalog. I had a csv file of ebooks, and I needed to verify that our users are able to access the ebooks through our online catalogue. When run, this program opens Chrome, navigates to our catalog, and enters the search parameters and submits them to be searched. The program then pauses for a sufficient amount of time for me to verify access, then moves on. Automating this process allows the work to be done more quickly as well as being more accurate than manual searched, eliminating human errors such as typos. 
+
+This job of searching titles in our catalogue is a frequently done task with different sets of titles. As such, there are several different variations, and this file is one of them. These minor modifications allow for better solutions based on the exact needs of any given set of data. 
